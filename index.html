@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+     <!-- bootstrap link -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <!-- Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Ranjith Roofing Solution</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-content">
+       
+        
+        <div class="nav-links">
+          <div class="logo" >
+            <img src="./images/logo.jpg" alt="company logo"/>
+          </div>
+          <a href="#carouselExampleIndicators"><i class="fas fa-home"></i> Home</a>
+          <a href="#about"><i class="fas fa-user"></i> About Us</a>
+          <a href="#product"><i class="fas fa-code"></i> Our Products</a>
+          <a href="#services"><i class="fas fa-project-diagram"></i>Our Services</a>
+          <a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
+        </div>
+        <button class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Header --> 
+    <div  id="carouselExampleIndicators" class="carousel slide" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active c-item">
+          <img src="./images/carousel 2.jpg" class="d-block w-100 c-img" alt="couple">
+          
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./images/carousel 1.jpg" class="d-block w-100 c-img" alt="dog">
+        </div>
+        <div class="carousel-item c-item">
+          <img src="./images/carousel 3.jpg" class="d-block w-100 c-img" alt="family">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+<!--end of carousel-->
+
+    <!-- About -->
+    <section id="about" class="about">
+      <div class="about-content">
+        <div class="profile-img">
+          <img
+            src="./images/company.jpg"
+            alt="company image"
+          />
+        </div>
+        <div class="about-text">
+          <h2 class="section-title">About Us</h2>
+          <p>
+            A solar power plant is a facility that generates electricity by converting
+             sunlight into electrical energy using photovoltaic (PV) cells. These cells, 
+             typically made of silicon, absorb sunlight and release electrons, creating a
+              direct current (DC) electricity. This DC electricity is then converted into 
+              alternating current (AC) electricity, which can be used to power
+            1  homes, businesses, and the electrical grid. Solar power plants are a clean
+             and renewable source of energy, contributing to a sustainable future.   
+
+          </p>
+          <p>
+            When I'm not coding, you can find me contributing to open-source
+            projects, writing technical articles, or exploring new technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="product" class="works">
+      <div class="works-content">
+        <h2 class="section-title">Our Products</h2>
+        <div class="works-grid">
+          <!-- work 1 -->
+          <div class="work-card">
+            <img
+              src="./images/product 1.webp"
+              alt="project 1"
+            />
+            <div class="work-info">
+              <div>
+                <h3>Model-1</h3>
+                <p>Pricing start at Rs. 15000 /</p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- work 2 -->
+          <div class="work-card">
+            <img
+              src="./images/product 2.webp"
+              alt="project 2"
+            />
+            <div class="work-info">
+              <div>
+                <h3>Model-2</h3>
+                <p>Pricing start at Rs. 18000 /</p>
+              </div>
+              
+            </div>
+          </div>
+          <!-- work 3 -->
+          <div class="work-card">
+            <img
+              src="./images/product 3.jpg"
+              alt="project 2"
+            />
+            <div class="work-info">
+              <div>
+                <h3>Model-3</h3>
+                <p>Pricing start at Rs. 25000 /</p>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- Works -->
+     <!--Services-->
+     <section id="services" class="works">
+      <div class="works-content">
+        <h2 class="section-title">Our Services</h2>
+        <div class="works-grid">
+          <!-- work 1 -->
+          <div class="work-card">
+            <img
+              src="./images/services.jpg"
+              alt="project 1"
+            />
+            <div class="work-info">
+              <div>
+                <h3>Free Installation</h3>
+                
+              </div>
+              
+            </div>
+          </div>
+          <!-- work 2 -->
+          <div class="work-card">
+            <img
+              src="./images/services 2.webp"
+              alt="project 2"
+            />
+            <div class="work-info">
+              <div>
+                <h3>One Year Warranty Services</h3>
+                
+              </div>
+              
+            </div>
+          </div>
+          <!-- work 3 -->
+          <div class="work-card">
+            <img
+              src="./images/services 3.avif"
+              alt="project 2"
+            />
+            <div class="work-info">
+              <div>
+                <h3>24/7 Support</h3>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="contact">
+       
+        <div style="text-align: center;" class="contact">
+          <h2 class="section-title1">Contact Us</h2> <br/>
+          <h2 class="section-title1">Ranjith Solar Roofing Solution</h2>
+          <p> No 162 2nd B cross <br/>
+            Kempegowda layout <br/>
+            Peenya 2nd Stage <br/>
+            Bangalore<br/>
+            karnataka <br/>
+            India<br/>
+            Mobile:6363453265<br/>
+          </p>
+        </div>
+      </div>
+      <section>
+      <div>
+        <button  class="Broucher" style="display: block; margin: auto;0"  >
+         <a style="text-decoration: none;" href="./images/Ranjith Kumar K A Resume .pdf" download>Download Broucher</a>
+         </button>
+       </div>
+      </section>
+    </section>
+   
+
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2025 Ranjith Roofing Solution Pvt Ltd.<br/>
+         All rights reserved</p>
+      <div class="social-links">
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+  </body>
+</html>
